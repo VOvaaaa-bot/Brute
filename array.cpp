@@ -22,7 +22,7 @@ signed main() {
             cout << '\n';
             return;
         }
-        for (int i = 0; i < (1 << k); ++i) {
+        for (int i = 0; i < k+1; ++i) {
             arr[ind] = i;
             rec(ind + 1);
         }
